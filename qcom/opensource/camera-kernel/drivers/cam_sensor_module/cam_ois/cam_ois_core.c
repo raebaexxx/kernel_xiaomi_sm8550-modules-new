@@ -1156,7 +1156,7 @@ void cam_ois_shutdown(struct cam_ois_ctrl_t *o_ctrl)
 #if defined(CONFIG_TARGET_PRODUCT_NUWA)
 	if (o_ctrl->i2c_postinit_data.is_settings_valid == 1)
 		delete_request(&o_ctrl->i2c_postinit_data);
-#endif		
+#endif
 	kfree(power_info->power_setting);
 	kfree(power_info->power_down_setting);
 	power_info->power_setting = NULL;

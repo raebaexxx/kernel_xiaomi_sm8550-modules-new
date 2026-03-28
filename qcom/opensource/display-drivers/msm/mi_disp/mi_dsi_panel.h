@@ -164,7 +164,6 @@ struct mi_dsi_panel_cfg {
 	int doze_lbm_dbv_level;
 	int doze_51reg_update_value;
 	bool aod_layer_remove;
-	bool bl_enable;
 
 	/* Local HBM */
 	bool local_hbm_enabled;
